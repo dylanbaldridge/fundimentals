@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;   
+    justify-self: center;
+}
+
+button{  
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+#dice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-column-start: 2;
+    text-align: center;
+  
+  
+}
+
+#dice1  {
+ grid-row-start: 1;
+    font-size: 2em;
+}
+
+#dice2  {
+   grid-row-start: 1;
+      font-size: 2em;
+  }
+
+  #result{
+   grid-column:  -1 /1;
+   align-content: center;
+  }
+
+
+
+
+
+
+  #button{
+    justify-self: center;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
